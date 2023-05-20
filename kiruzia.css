@@ -1,0 +1,258 @@
+body {
+	background-color: #A6A6A6;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header {
+	width: 100%;
+	padding: 20px;
+	text-align: right;
+	font-family: serif;
+	font-size: 30px;
+	box-sizing: border-box;
+}
+
+h1 {
+	color: #333;
+	font-size: 28px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  width:100;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+section {
+	padding: 40px 0;
+	text-align: center;
+}
+
+.blog-post {
+	display: flex;
+}
+
+.image-container {
+	flex: 1;
+	margin: 20px;
+	text-align: center;
+}
+
+.image-container img {
+	max-width: 100%;
+	height: auto;
+}
+
+.image-container h3 {
+	margin-top: 10px;
+	font-family: serif;
+}
+
+.image-container p {
+	color: #777;
+	font-family: serif;
+}
+
+.image-container a {
+	display: inline-block;
+	margin-top: 10px;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+	font-family: serif;
+}
+
+.image-container a:hover {
+	background-color: #555;
+	font-family: serif;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	font-family: serif;
+}
+
+.detel {
+	height: 100vh;
+	width: 100%;
+	background-image: url(kiruziaa.png);
+	object-fit: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.detel h2 {
+	font-size: 50px;
+	color: #212121;
+	margin-bottom: 20px;
+	font-family: serif;
+	text-align: center;
+}
+
+.images {
+	width: 45%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+}
+
+.images img {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+}
+
+.text-container {
+	overflow: hidden;
+}
+
+.text-container h2 {
+	margin-top: 0;
+}
+
+.text-container p {
+	line-height: 1.5;
+}
+
+input,
+textarea {
+	background: rgb(201, 192, 228);
+}
+
+::placeholder {
+	color: rgb(88, 76, 119);
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.con-form h2 {
+	color: rgb(88, 76, 119);
+}
+
+#sbmt-btn {
+	padding: 1em 10em;
+	color: rgb(201, 192, 228);
+	width: 94%;
+	background: rgb(88, 76, 119);
+	margin-bottom: 20%;
+}
+
+h2,
+form input,
+form textarea {
+}
+
+#sbmt-btn {
+	width: 100%;
+	color: white;
+	padding: 10px;
+	background: #000;
+}
+
+input[type=submit] {
+	padding: 2%;
+}
+
+input[type=text] {
+	padding: 2%;
+}
+
+input[type=email] {
+	padding: 2%;
+}
+
+textarea {
+	padding: 2%;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.picture-container {
+  flex: 1;
+}
+
+.picture-container img {
+  width: 200px;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+  margin-left: 50px;
+}
+
+.text-container p {
+  text-align: justify;
+  column-count: 1;
+  column-gap: 40px;
+}
+media screen and (max-width: 768px) {
+	
+.container2 {
+    flex-direction: column;
+}
+
+.picture-container,
+.text-container {
+   margin-left: 0;
+  }
+
+.picture-container img {
+   width: 150px;
+}
+
+.text-container p {
+    column-count: 1;
+  }
+}
